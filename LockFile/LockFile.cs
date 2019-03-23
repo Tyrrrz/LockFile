@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Threading;
+using LockFile.Internal;
 
 namespace LockFile
 {
@@ -10,7 +11,7 @@ namespace LockFile
 
         public LockFile(FileStream fileStream)
         {
-            FileStream = fileStream;
+            FileStream = fileStream.GuardNotNull(nameof(fileStream));
         }
 
         public void Dispose() => FileStream.Dispose();
@@ -20,6 +21,8 @@ namespace LockFile
     {
         public static LockFile TryAcquire(string filePath)
         {
+            filePath.GuardNotNull(nameof(filePath));
+
             try
             {
                 var fileStream = File.Open(filePath, FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.None);
@@ -35,6 +38,8 @@ namespace LockFile
         public static LockFile WaitAcquire(string filePath,
             CancellationToken cancellationToken = default(CancellationToken))
         {
+            filePath.GuardNotNull(nameof(filePath));
+
             while (true)
             {
                 // Throw if canceled
