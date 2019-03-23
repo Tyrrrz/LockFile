@@ -59,7 +59,9 @@ namespace LockFile.Tests
                 Task.Delay(TimeSpan.FromSeconds(0.5)).ContinueWith(_ => originalLockFile.Dispose());
 
                 using (var newLockFile = LockFile.WaitAcquire(lockFilePath))
+                {
                     Assert.That(newLockFile, Is.Not.Null);
+                }
             }
         }
 

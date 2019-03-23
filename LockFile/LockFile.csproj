@@ -2,6 +2,22 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
+    <Version>1.0</Version>
+    <Company>Tyrrrz</Company>
+    <Authors>$(Company)</Authors>
+    <Copyright>Copyright (C) Alexey Golub</Copyright>
+    <Description>Simple lock file implementation</Description>
+    <PackageTags>simple lock file</PackageTags>
+    <PackageProjectUrl>https://github.com/Tyrrrz/LockFile</PackageProjectUrl>
+    <PackageReleaseNotes>https://github.com/Tyrrrz/LockFile/blob/master/Changelog.md</PackageReleaseNotes>
+    <PackageIconUrl>https://raw.githubusercontent.com/Tyrrrz/LockFile/master/favicon.png</PackageIconUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/Tyrrrz/LockFile</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+
   </PropertyGroup>
 
 </Project>
