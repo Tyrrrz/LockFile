@@ -15,7 +15,7 @@ LockFile is the simplest lock file implementation for .NET.
 ## Features
 
 - Dead simple
-- Targets .NET Framework 4.5 and .NET Standard 2.0
+- Targets .NET Framework 4.5+ and .NET Standard 2.0+
 
 ## Usage
 
