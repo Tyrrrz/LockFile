@@ -9,7 +9,7 @@ LockFile is the simplest lock file implementation for .NET.
 
 ## Download
 
-- [NuGet](https://nuget.org/packages/LockFile): `Install-Package LockFile`
+- [NuGet](https://nuget.org/packages/LockFile): `dotnet add package LockFile`
 - [Continuous integration](https://ci.appveyor.com/project/Tyrrrz/LockFile)
 
 ## Features
