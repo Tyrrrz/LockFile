@@ -4,6 +4,8 @@
 [![Tests](https://img.shields.io/appveyor/tests/Tyrrrz/LockFile/master.svg)](https://ci.appveyor.com/project/Tyrrrz/LockFile)
 [![NuGet](https://img.shields.io/nuget/v/LockFile.svg)](https://nuget.org/packages/LockFile)
 [![NuGet](https://img.shields.io/nuget/dt/LockFile.svg)](https://nuget.org/packages/LockFile)
+[![Donate](https://img.shields.io/badge/patreon-donate-yellow.svg)](https://patreon.com/tyrrrz)
+[![Donate](https://img.shields.io/badge/buymeacoffee-donate-yellow.svg)](https://buymeacoffee.com/tyrrrz)
 
 LockFile is the simplest lock file implementation for .NET.
 
@@ -55,3 +57,7 @@ using (var lockFile = LockFile.WaitAcquire("some.lock", cts.Token))
 ## Libraries used
 
 - [NUnit](https://github.com/nunit/nunit)
+
+## Donate
+
+If you really like my projects and want to support me, consider donating to me on [Patreon](https://patreon.com/tyrrrz) or [BuyMeACoffee](https://buymeacoffee.com/tyrrrz). All donations are optional and are greatly appreciated. 🙏
