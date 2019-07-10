@@ -9,8 +9,11 @@ before_build:
 build:
   verbosity: minimal
 
+after_test:
+- choco install codecov && codecov -f "LockFile.Tests/bin/%CONFIGURATION%/Coverage.xml" --required
+
 artifacts:
-- path: LockFile\bin\$(configuration)\LockFile*.nupkg
+- path: LockFile/bin/$(configuration)/LockFile*.nupkg
   name: LockFile.nupkg
 
 deploy:

@@ -1,7 +1,8 @@
 # LockFile
 
-[![Build](https://img.shields.io/appveyor/ci/Tyrrrz/LockFile/master.svg)](https://ci.appveyor.com/project/Tyrrrz/LockFile)
-[![Tests](https://img.shields.io/appveyor/tests/Tyrrrz/LockFile/master.svg)](https://ci.appveyor.com/project/Tyrrrz/LockFile)
+[![Build](https://img.shields.io/appveyor/ci/Tyrrrz/LockFile/master.svg)](https://ci.appveyor.com/project/Tyrrrz/LockFile/branch/master)
+[![Tests](https://img.shields.io/appveyor/tests/Tyrrrz/LockFile/master.svg)](https://ci.appveyor.com/project/Tyrrrz/LockFile/branch/master/tests)
+[![Coverage](https://img.shields.io/codecov/c/gh/Tyrrrz/LockFile/master.svg)](https://codecov.io/gh/Tyrrrz/LockFile)
 [![NuGet](https://img.shields.io/nuget/v/LockFile.svg)](https://nuget.org/packages/LockFile)
 [![NuGet](https://img.shields.io/nuget/dt/LockFile.svg)](https://nuget.org/packages/LockFile)
 [![Donate](https://img.shields.io/badge/patreon-donate-yellow.svg)](https://patreon.com/tyrrrz)
