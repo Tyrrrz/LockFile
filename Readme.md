@@ -58,6 +58,7 @@ using (var lockFile = LockFile.WaitAcquire("some.lock", cts.Token))
 ## Libraries used
 
 - [NUnit](https://github.com/nunit/nunit)
+- [Coverlet](https://github.com/tonerdo/coverlet)
 
 ## Donate
 
